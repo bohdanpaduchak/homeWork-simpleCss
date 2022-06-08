@@ -154,7 +154,9 @@ form {
 .nav-link {
     margin: 10px 20px;
 }
-.video--h{
+
+.video--h {
     opacity: 0;
 }
+
 @media screen and (min-width: 30em) and (orientation: landscape) {}
