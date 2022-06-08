@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #DEDBDB;
+}
+
+#header,
+.footer {
+    width: 100%;
+    height: 100px;
+}
+
+#header {
+    position: fixed;
+}
+
+.main {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header-img {
+    max-width: 300px;
+    margin-top: 50px;
+}
+
+#nav-bar {
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-right: 50px;
+    font-family: 'Lato', sans-serif;
+    float: right;
+    font-size: 30px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: green;
+}
+
+.main {
+    width: 70vw;
+    margin: auto;
+}
+
+.main-head {
+    text-align: center;
+}
+
+#video {
+    display: none;
+}
+
+#email,
+#submit {
+    display: block;
+    margin: auto;
+}
+
+.video--box {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    margin-bottom: 50px;
+}
+
+.main--why-choose-us {
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+.material-symbols-outlined {
+    height: 100px;
+    width: 100px;
+}
+
+.main--why-choose-us--title {
+    width: 100%;
+}
+
+.card {
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.container--card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.footer {
+    width: 70vw;
+    margin: auto;
+    background-color: #ABABAB;
+}
+
+.card-title {
+    background-color: #ABABAB;
+    font-size: 25px;
+}
+
+.card>p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.btn-select {
+    border: 1px solid black;
+    background-color: darkorange;
+    padding: 5px;
+    display: block;
+    margin: 20px 50px;
+}
+
+.btn-select:hover {
+    background-color: yellow;
+    margin-top: 20px;
+}
+
+.footer--nav {
+    display: block;
+    justify-content: right;
+}
+
+.footer--copyright {
+    display: block;
+    text-align: right;
+}
+
+.footer--nav {
+    display: flex;
+    justify-content: right;
+    margin-top: 30px;
+}
+
+.nav-link {
+    margin: 10px 20px;
+}
+
+@media screen and (min-width: 30em) and (orientation: landscape) {}
